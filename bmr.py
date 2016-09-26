@@ -1,14 +1,9 @@
 # Basal Metabolic Rate Calculator
 
-
-
-def takeInputs():
-    weight = int(input("Enter your weight in KG: \n"))
-    height = int(input("Enter your height in cm: \n"))
-    age = int(input("Enter your age in years: \n"))
-    isMale = str(input("Are you male? (y/n)"))
-
-takeInputs()
+weight = int(input("Enter your weight in KG: \n"))
+height = int(input("Enter your height in cm: \n"))
+age = int(input("Enter your age in years: \n"))
+isMale = str(input("Are you male? (y/n)"))
 
 if isMale == "y":
     isMale = True
