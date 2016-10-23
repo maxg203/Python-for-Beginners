@@ -1,5 +1,5 @@
 import math
-import functions, pillow
+import functions
 
 print(math.floor(3.7))
 
