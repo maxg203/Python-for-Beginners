@@ -14,3 +14,10 @@ def square_area(side_length=4):
 def rectangle_perimeter(width, height):
     perimeter = width * 2 + height * 2
     return perimeter
+
+def maximum(num1,num2):
+    if num1 > num2:
+        return num1
+    else:
+        return num2
+
